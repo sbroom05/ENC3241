@@ -1,19 +1,15 @@
-
 ---
 layout: default
 title: Home
 ---
 
-# Portfolio
+# Emily Johnson
 
-Select an assignment below and publish your work.
+Welcome to my technical communication portfolio.
 
-{% assign ordered = site.assignments | sort: 'due' %}
-<ul class="assignments">
-{% for a in ordered %}
-  <li>
-    <a href="{{ a.url }}">{{ a.title }}</a>
-    <span class="due">Due: {{ a.due }} ({{ a.week }})</span>
-  </li>
-{% endfor %}
-</ul>
+## Assignments
+
+- [Resume](resume.md)
+- [Cover Letter](coverletter.md)
+- [Instructions](instructions.md)
+- [Proposal](proposal.md)
